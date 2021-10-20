@@ -1,0 +1,64 @@
+body{
+    color: black;
+    background-color: #ECF0F1;
+    font-family: sans-serif;
+    font-size: large;
+    text-align: center;
+}
+h2, h1{
+    color: black;
+    font-size: 28px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+a{
+    color: rgb(0, 0, 0);
+}
+.link{
+    font-size: 40px;
+    transition: color 0.3s ease;
+}
+a:hover{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.img-circle{
+    border-radius: 50%;
+}
+.img-bordered{
+    border: 5px solid black;
+}
+.container{
+    width: 1000px;
+    margin: 40px auto;
+}
+
+@media (max-width:800px){
+    .container{
+        width: auto;
+    }
+}
+
+.card-white{
+    background: white;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+    border: 1px solid black;
+    margin: 20px 0px;
+    text-align: center;
+}
+.button{
+    font-size: 30px;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+    border: 1px solid black;
+    width: 100px;
+    margin: 20px 0px;
+    text-align: center;
+}
